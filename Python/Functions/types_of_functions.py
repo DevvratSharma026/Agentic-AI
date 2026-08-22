@@ -24,6 +24,15 @@ def table(n):
 
 table(10)
 
-#lambda
-chai_type = ['ginger', 'tea', 'milk', 'sugar']
+#lambda: a function without name
+square_lambda = lambda x: x*x
+print(square_lambda(5))
 
+add = lambda a, b: a+b
+print(add(4, 5))
+
+#lambda on list
+elements = ["sodium", "gold", "silver", "titanium", "gold"]
+
+gold_ele = list(filter(lambda gold: gold == "gold", elements))
+print(gold_ele)
